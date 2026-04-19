@@ -384,14 +384,5 @@ For questions or issues, please open an issue on GitHub or contact [your-email@e
 
 ---
 
-## 📖 Additional Documentation
-
-- **Quick Start Guide:** `QUICK_START_GUIDE.md`
-- **Model Comparison:** `docs/CNN_LSTM_VS_RESNET50_DEEP_LSTM_COMPARISON.md`
-- **ResNet50 Guide:** `docs/RESNET50_DEEP_LSTM_GUIDE.md`
-- **Troubleshooting:** `docs/TROUBLESHOOTING_POOR_ACCURACY.md`
-
----
-
 **Last Updated:** April 19, 2026  
 **Version:** 1.0.0
