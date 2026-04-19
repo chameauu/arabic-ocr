@@ -359,25 +359,9 @@ arabic-htr/
 
 ### Papers
 
-1. **Shi, B., Bai, X., & Yao, C. (2017)**  
-   "An End-to-End Trainable Neural Network for Image-based Sequence Recognition and Its Application to Scene Text Recognition"  
-   *IEEE Transactions on Pattern Analysis and Machine Intelligence*  
-   [arXiv:1507.05717](https://arxiv.org/abs/1507.05717)
-
-2. **He, K., Zhang, X., Ren, S., & Sun, J. (2016)**  
-   "Deep Residual Learning for Image Recognition"  
-   *IEEE Conference on Computer Vision and Pattern Recognition (CVPR)*  
-   [arXiv:1512.03385](https://arxiv.org/abs/1512.03385)
-
-3. **Graves, A., Fernández, S., Gomez, F., & Schmidhuber, J. (2006)**  
-   "Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks"  
-   *International Conference on Machine Learning (ICML)*
-
-### Related Work
-
-4. **Bluche, T., & Messina, R. (2017)**  
-   "Gated Convolutional Recurrent Neural Networks for Multilingual Handwriting Recognition"  
-   *International Conference on Document Analysis and Recognition (ICDAR)*
+1. **Mohammad Fasha, Bassam Hammo, Nadim Obeid, Jabir Widian (2020)**  
+   "A Hybrid Deep Learning Model for Arabic Text Recognition"  
+   [arXiv:2009.01987](https://arxiv.org/abs/2009.01987)
 
 5. **Yousef, M., Bishop, T. E., & Nasrollahi, K. (2020)**  
    "KHATT: An Open Arabic Offline Handwritten Text Database"  
@@ -385,9 +369,8 @@ arabic-htr/
 
 ### Dataset References
 
-- **Binary Dataset Format:** Efficient storage for large-scale handwriting datasets
-- **Arabic Character Set:** Includes base letters, diacritics, and special characters
-- **Preprocessing:** Aspect ratio preservation with white padding
+- **Arabic Multi-Fonts Dataset (AMFDS):** Efficient storage for large-scale text datasets
+
 
 ### Implementation References
 
@@ -398,18 +381,6 @@ arabic-htr/
 
 ---
 
-## 🎓 Citation
-
-If you use this code or models in your research, please cite:
-
-```bibtex
-@misc{arabic-htr-2026,
-  title={Arabic Handwritten Text Recognition using CNN-LSTM and ResNet50},
-  author={Your Name},
-  year={2026},
-  howpublished={\url{https://github.com/yourusername/arabic-htr}}
-}
-```
 
 ---
 
