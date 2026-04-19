@@ -10,7 +10,6 @@ Deep learning models for Arabic handwritten text recognition using CNN-LSTM and 
 - [Installation](#installation)
 - [Quick Start](#quick-start)
 - [Results](#results)
-- [Project Structure](#project-structure)
 - [References](#references)
 - [License](#license)
 
@@ -271,41 +270,6 @@ Epoch 10: Loss ~2-5
 
 ---
 
-## 📁 Project Structure
-
-```
-arabic-htr/
-├── README.md                              # This file
-├── QUICK_START_GUIDE.md                   # Detailed setup guide
-├── generate_charlist.py                   # Character list generator
-│
-├── arabic_ocr.py                          # CNN-LSTM model class
-├── HTR_Complete_Workflow.py               # CNN-LSTM training script
-├── HTR_Complete_Workflow.ipynb            # CNN-LSTM notebook
-│
-├── HTR_ResNet50_DeepLSTM_Workflow.py      # ResNet50 training script
-├── HTR_ResNet50_DeepLSTM_Workflow.ipynb   # ResNet50 notebook
-│
-├── dataset/
-│   ├── 1_nice_60000_rows.bin              # Binary image file
-│   └── 1_nice_60000_rows.txt              # Labels file
-│
-├── model/                                  # Saved model weights
-│   ├── *.weights.h5                       # Model checkpoints
-│   └── char_to_num_layer.keras            # Character encoding
-│
-├── output/                                 # Generated files
-│   ├── charList.txt                       # Character vocabulary
-│   └── *.png                              # Training visualizations
-│
-└── docs/                                   # Documentation
-    ├── CNN_LSTM_VS_RESNET50_DEEP_LSTM_COMPARISON.md
-    ├── MODEL_COMPARISON_SUMMARY.md
-    ├── RESNET50_DEEP_LSTM_GUIDE.md
-    └── ...
-```
-
----
 
 ## 🔬 Technical Details
 
