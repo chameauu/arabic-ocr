@@ -1,6 +1,6 @@
-# Arabic Handwritten Text Recognition (HTR)
+# Arabic  Text Recognition 
 
-Deep learning models for Arabic handwritten text recognition using CNN-LSTM and ResNet50-based architectures.
+Deep learning models for Arabic  text recognition using CNN-LSTM and ResNet50-based architectures.
 
 ## 📋 Table of Contents
 
@@ -17,7 +17,7 @@ Deep learning models for Arabic handwritten text recognition using CNN-LSTM and 
 
 ## 🎯 Overview
 
-This project implements two deep learning architectures for Arabic handwritten text recognition:
+This project implements two deep learning architectures for Arabic  text recognition:
 
 1. **CNN-LSTM** - A baseline model with custom CNN layers and bidirectional LSTM
 2. **ResNet50 Deep LSTM** - An advanced model using pretrained ResNet50 with 4 stacked bidirectional LSTMs
@@ -37,7 +37,7 @@ Both models use Connectionist Temporal Classification (CTC) loss for sequence-to
 
 ## 📊 Dataset
 
-### Arabic Handwritten Dataset
+### Arabic  Dataset
 
 **Source:** Binary format dataset with 60,000 samples
 
@@ -153,7 +153,7 @@ CTC Loss + Beam Search (width=100)
 
 ### Prerequisites
 
-- Python 3.8+
+- Python 3.10+
 - TensorFlow 2.10+
 - CUDA-compatible GPU (recommended)
 
@@ -328,7 +328,7 @@ Epoch 10: Loss ~2-5
    [arXiv:2009.01987](https://arxiv.org/abs/2009.01987)
 
 5. **Yousef, M., Bishop, T. E., & Nasrollahi, K. (2020)**  
-   "KHATT: An Open Arabic Offline Handwritten Text Database"  
+   "KHATT: An Open Arabic Offline  Text Database"  
    *Pattern Recognition*
 
 ### Dataset References
@@ -377,7 +377,7 @@ For questions or issues, please open an issue on GitHub or contact [your-email@e
 
 ## 🙏 Acknowledgments
 
-- Dataset providers for the Arabic handwritten text dataset
+- Dataset providers for the Arabic  text dataset
 - TensorFlow and Keras teams for the deep learning framework
 - ResNet authors for the pretrained ImageNet weights
 - Open-source community for various tools and libraries
